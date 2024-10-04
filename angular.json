@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "itanslate-link-admin": {
+    "itranslate-link-admin": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/itanslate-link-admin",
+            "outputPath": "dist/itranslate-link-admin",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -153,13 +153,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "itanslate-link-admin:build:production"
+              "browserTarget": "itranslate-link-admin:build:production"
             },
             "development": {
-              "browserTarget": "itanslate-link-admin:build:development"
+              "browserTarget": "itranslate-link-admin:build:development"
             },
             "test": {
-              "browserTarget": "itanslate-link-admin:build:test"
+              "browserTarget": "itranslate-link-admin:build:test"
             }
           },
           "defaultConfiguration": "production"
@@ -167,7 +167,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "itanslate-link-admin:build"
+            "browserTarget": "itranslate-link-admin:build"
           }
         },
         "test": {
