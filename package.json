@@ -1,7 +1,7 @@
 {
   "name": "itranslate-link-admin",
   "version": "4.5.2",
-  "copyright": "Copyright 2023 creativeLabs Łukasz Holeczek",
+  "copyright": "Copyright 2023 creativeLabs \u0141ukasz Holeczek",
   "license": "MIT",
   "author": "",
   "homepage": "",
@@ -11,10 +11,10 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --configuration production",
-    "start:dev": "ng serve --configuration development",
-    "build": "ng build --configuration production",
-    "build:dev": "ng build --configuration development",
+    "start": "node api.js && ng serve --configuration production",
+    "start:dev": "node api.js && ng serve --configuration development",
+    "build": "node api.js && ng build --configuration production",
+    "build:dev": "node api.js && ng build --configuration development",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
