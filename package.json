@@ -11,10 +11,10 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "node api.js && ng serve --configuration production",
-    "start:dev": "node api.js && ng serve --configuration development",
-    "build": "node api.js && ng build --configuration production",
-    "build:dev": "node api.js && ng build --configuration development",
+    "start": "ng serve --configuration production",
+    "start:dev": "ng serve --configuration development",
+    "build": "ng build --configuration production",
+    "build:dev": "ng build --configuration development",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
